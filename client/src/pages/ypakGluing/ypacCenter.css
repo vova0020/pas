@@ -1,0 +1,162 @@
+.ypakBlok{
+    width:100%;
+
+    /*justify-content:space-between;*/
+    margin: 30px 0 0 0;
+}
+.blockTablePoisk{
+
+}
+.tableGluingBlok{
+    width: 100%;
+   max-height: 300px;
+    overflow: scroll;
+    border: 1px solid black;
+    /*padding:15px;*/
+}
+.tableGluing{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.tableGluingBlok_thead{
+    position: sticky;
+    top: 0px;
+    margin: 0 0 0 0;
+    max-width: 100%;
+}
+.tableGluingBlok_tbody{
+
+}
+.glavMonitorBlock{
+    margin: 20px 0 0 0;
+}
+.monitorsBlock{
+    padding: 20px;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.monitorBlock{
+    display:flex;
+    flex-wrap:wrap;
+}
+.statMonitorBlock{
+
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center;
+    word-break: normal;
+}
+.createMonitorsBlock {
+    padding: 40px 0px 0px 20px;
+}
+.createMonitors-form{
+    display: flex;
+}
+.createInput{
+    padding: 10px;
+    border-radius:10px;
+    margin: 0 10px;
+}
+.files_div{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 0px 0px 20px;
+}
+.postText{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.postDiv{
+    border: 1px solid black;
+    padding: 10px;
+}
+.impDiv{
+    margin-top: 5px;
+    height: 100%;
+}
+.buttonCreate{
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(147,80,36) linear-gradient(rgb(106,58,26), rgb(147,80,36) 80%);
+    box-shadow:
+            0 6px rgb(86,38,6),
+            0 3px 15px rgba(0,0,0,.4),
+            inset 0 1px rgba(255,255,255,.3),
+            inset 0 0 3px rgba(255,255,255,.5);
+    transition: .2s;
+}
+.buttonCreate:hover {
+    background: rgb(167,91,41) linear-gradient(rgb(126,69,31), rgb(167,91,41) 80%);
+}
+.buttonCreate:active {
+    background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+    box-shadow:
+            0 2px rgb(86,38,6),
+            0 1px 6px rgba(0,0,0,.4),
+            inset 0 1px rgba(255,255,255,.3),
+            inset 0 0 3px rgba(255,255,255,.5);
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+.buttonCreate:disabled {
+    opacity: 0.4;
+}
+
+.hr{
+    height: 20px;
+    border: none;
+    color: #333;
+    background-image: linear-gradient(currentColor, currentColor 33.33%, transparent 33.33%, transparent 100%);
+    background-size: 100% 3px;
+    margin: 30px 0 30px 0;
+}
+
+.divHr{
+    padding: 40px 0;
+}
+.textPost{
+    font-weight: bold;
+    text-align: center;
+}
+.post{
+
+    width:100%;
+    max-height: 500px;
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+}
+.starData{
+    height: 100%;
+}
+.newData{
+    margin: 10px 0 0 0;
+}
+.blok_button-delImg{
+    margin: 20px 0 0 0;
+}
+.blok1_button-delImg{
+
+}
+.blok2_button-delImg{
+margin: 20px 0 0 0;
+}
+.button-delImg{
+    margin: 0 5px;
+}

@@ -1,0 +1,266 @@
+
+/*Стили блока center данными из буфера*/
+
+.bufersDiagram_block_osn{
+	border: 1px solid black;
+	width:50%;
+
+}
+.bufersDiagram_block{
+
+	width:100%;
+	padding: 10px;
+}
+.bufersDiagram_block-headerBlock{
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+}
+.bufersDiagram_block_sectrA{
+	border: 1px solid black;
+	width: 50%;
+	height: 230px;
+	display: flex;
+	flex-direction: column ;
+	justify-content: flex-end;
+	align-items: center;
+	padding:5px;
+
+}
+.bufersDiagram_sectrA-textBlock{
+	border: 1px solid black;
+	border-radius: 30px;
+	padding: 8px;
+	height: 33%;
+	width: 50%;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.bufersDiagram_sectrA-text{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.bufersDiagram_block_sectrB{
+	border: 1px solid black;
+	width: 50%;
+	height: 230px;
+	display: flex;
+	flex-direction: column ;
+	justify-content: flex-end;
+	align-items: center;
+	padding:5px;
+
+}
+.bufersDiagram_sectrB-textBlock{
+	border: 1px solid black;
+	border-radius: 30px;
+	padding: 8px;
+	height: 33%;
+	width: 50%;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.bufersDiagram_sectrB-text{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.bufersDiagram_block-footerBlock{
+	display: flex;
+}
+.bufersDiagram_block_sectrC{
+	border: 1px solid black;
+	width: 50%;
+	height: 230px;
+	display: flex;
+	flex-direction: column ;
+	justify-content: flex-end;
+	align-items: center;
+	padding:5px;
+
+}
+.bufersDiagram_sectrC-textBlock{
+	border: 1px solid black;
+	border-radius: 30px;
+	padding: 8px;
+	height: 33%;
+	width: 50%;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.bufersDiagram_sectrC-text{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.bufersDiagram_block_sectrD{
+	border: 1px solid black;
+	width: 50%;
+	height: 230px;
+	display: flex;
+	flex-direction: column ;
+	justify-content: flex-end;
+	align-items: center;
+	padding:5px;
+
+}
+.bufersDiagram_sectrD-textBlock{
+	border: 1px solid black;
+	border-radius: 30px;
+	padding: 8px;
+	height: 33%;
+	width: 50%;
+	/*margin:0 auto;*/
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.bufersDiagram_sectrD-text{
+	width: 100%;
+	text-align: center;
+	/*margin: auto;*/
+}
+
+.sectr_text_block{
+	display: flex;
+	height: 33%;
+}
+.sectr_text{
+	text-align: center;
+	font-size: 35px;
+	/*margin: auto;*/
+}
+.sectr_text_predel_block{
+	display: flex;
+	height: 33%;
+}
+.sectr_text_predel{
+	text-align: center;
+	/*margin: auto;*/
+	font-size: 25px;
+	align-self: flex-end;
+}
+/*==============================================================================================================*/
+/*==============================================================================================================*/
+
+/*Блок стилей для диаграм по участкам*/
+.regionDiagram_block{
+	border: 1px solid black;
+	width:50%;
+	padding: 10px;
+}
+
+/**********************************/
+/*Стили для блока в котором календарь*/
+.region_kalendar-block{
+	width: 100%;
+}
+
+/*Стили для календаря*/
+.region_kalendar{
+	width:30%
+}
+.region_kalendar div:first-child{
+
+}
+.region_kalendar span{
+
+
+}
+.region_kalendar input{
+	height: 30px;
+	width:100%;
+	font-size: 15px;
+	border-radius: 20px;
+	padding: 5px;
+}
+.region_kalendar button{
+
+}
+/*------------------------------------------*/
+
+
+.region_diagram{
+	width:100%
+}
+/*================================================================================================================*/
+/*================================================================================================================*/
+/*Стили диаграм по станкам*/
+
+.stankiDiagram_block{
+	border: 1px solid black;
+	width:50%;
+	padding: 10px;
+}
+.stankiDiagram_block-selectKalendar{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+/**********************************/
+/*Стили для блока в котором календарь*/
+.stancki_kalendar-block{
+
+}
+.stancki_kalendar{
+	width:100%
+}
+.stancki_kalendar div:first-child{
+
+}
+.stancki_kalendar span{
+
+
+}
+.stancki_kalendar input{
+	height: 30px;
+	width:100%;
+	font-size: 15px;
+	border-radius: 20px;
+	padding: 5px;
+}
+.stancki_kalendar button{
+
+}
+/*--------------------------------------------*/
+.stanckiDiagram_select-blocl{
+	margin: 8px 0;
+
+}
+.stanckiDiagram_select{
+	height: 30px;
+	width:100%;
+	font-size: 15px;
+	border-radius: 20px;
+	padding: 5px;
+}
+.stancki_diagramBlock{
+
+}
+.stancki_diagram{
+
+}
+/*Стили для блока поломок*/
+.polomkiDiagram_block {
+	border: 1px solid black;
+	width:50%;
+	padding: 10px;
+}
+.polomkiDiagram_kalendar {
+	width: 100%;
+}
+.polomkiDiagram_select-block {
+
+}
+.polomkiDiagram_select-block {
+
+}
+.polomki_diagramBlock {
+	width:100%
+}
+

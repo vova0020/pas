@@ -1,0 +1,155 @@
+@page {
+    size: 600mm 290mm;
+}
+@media print {
+    @page {  size: a5 portrait;
+        margin: 220px 0 0 40px !important;
+    }
+    @media all {
+        .pagebreak {
+            overflow: visible;
+        }
+    }
+}
+
+.myPrint_blocks{
+
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.myPrint_blocks_hidden{
+    margin:  20px 0px 0px 30px;
+    padding: 0;
+    box-sizing: border-box;
+    display: none;
+}
+
+.table_context{
+    border-collapse: collapse;
+
+
+}
+.TD_skr{
+    border: none;
+
+}
+
+.myPrint_size_text__title{
+    padding: 0 5px 0 0;
+    font-size: 16px;
+    border: none;
+    font-family: Arial;
+}
+.myPrint_size_text{
+    padding: 5px 20px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #CFCFCF;
+    border: 1px solid black;
+    font-family: Arial;
+}
+
+
+.packaging_block{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+.myPrint_context_text__title{
+    padding: 0;
+    border: none;
+    font-family: Arial;
+    text-align: left;
+}
+.myPrint_context_text{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    text-align: left;
+    font-family: Arial;
+}
+.myPrint_context_size{
+    padding: 0;
+    font-weight: bold;
+    font-size: 36px;
+    border: none;
+    text-align: left;
+    font-family: Arial;
+}
+.KDT {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 1px;
+    font-family: Arial;
+}
+.FE {
+    padding: 5px 0 0 0 ;
+}
+.FEDiv {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+
+    font-family: Arial;
+    background-color: black;
+    color:white;
+    line-height:50px;
+}
+.FEtext {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+
+    color:white;
+}
+
+
+.myPrint_footer_text__title{
+    padding: 2px;
+    font-size: 9px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: Arial;
+    text-align: left;
+}
+.myPrint_footer_text{
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+    text-align: left;
+    font-family: Arial;
+}
+.myPrint_table{
+    border-collapse:collapse;
+    margin-top: 10px;
+    font-family: Arial;
+}
+
+.TD{
+     height: 25px;
+     font-size: 20px;
+    font-family: Arial;
+ }
+ .TH {
+     width: 100px;
+     font-weight: bold;
+     font-size: 20px;
+     font-family: Arial;
+ }
+ .hr{
+     margin: 20px 0;
+     width: 550px;
+     font-family: Arial;
+ }
+
+.myPrint_blocks{
+    margin:  10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}

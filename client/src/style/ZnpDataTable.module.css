@@ -1,0 +1,50 @@
+.tableData{
+    margin-bottom: 50px;
+    border-collapse:collapse;
+    width: 100%;
+}
+.theadData{
+    /*position: sticky;*/
+    /*top: 302px;*/
+    /*background-color: white;*/
+    /*border-collapse:collapse;*/
+    /*z-index: 2;*/
+
+
+}
+.tbodyData{
+
+}
+
+.tr{
+
+}
+th, td{
+    width: 30px ;
+    border-collapse:collapse;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 5px;
+    /*word-wrap: break-word;*/
+}
+th{
+    background: #dce6f1;
+    font-family:Calibri;
+    font-size: 15px;
+    font-weight: bold;
+}
+td{
+    font-family:Calibri;
+    font-size: 13px;
+}
+.tdBtn{
+    border: none;
+    text-align: left;
+}
+.heading, h1{
+
+
+}
+.part_nameTH{
+    /*width: 500px;*/
+}

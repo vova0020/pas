@@ -1,0 +1,40 @@
+.stanock_block{
+    margin: 0 5px;
+
+
+}
+.img{
+    width: 170px;
+    height: 120px
+}
+.progress{
+    width: 160px;
+    height: 25px;
+}
+.content_block{
+
+}
+
+/*Блок активации таблицы по нажатию*/
+
+.block_table{
+display: none;
+}
+.block_table_activ{
+    display: block;
+    background-color: white;
+}
+
+/*Таблица станка*/
+.tableBST1{
+    box-sizing: border-box;
+    border-collapse:collapse;
+}
+
+.headTR{
+
+}
+
+
+
+

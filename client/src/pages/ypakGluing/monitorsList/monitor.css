@@ -1,0 +1,19 @@
+.monitorBlock{
+    width:100%;
+    height:100%;
+
+}
+.imgBlock{
+    width:100%;
+    height:90%;
+    margin:0 auto;
+    box-sizing: content-box;
+    padding-bottom: 30px;
+}
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,22 @@
+.MyButton{
+    padding: 3px 20px;
+    border-radius: 10px;
+    background-color: #0d70ea;
+    color: white;
+}
+
+.MyButton:active {
+    background: linear-gradient(#bac6cf, #c5d3de 20%, #71828c);
+    box-shadow: 0 -1px rgba(255,255,255,.4) inset;
+}
+/*.MyButton:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: -10px; right: -10px; bottom: -10px; left: -10px;*/
+/*    z-index: -1;*/
+/*    border-radius: 8px;*/
+/*    background: linear-gradient(rgba(200,200,200,.5), rgba(240,240,240,.5));*/
+/*}*/
+/*.MyButton:hover {*/
+/*    background: linear-gradient(#d2dfea, #71828c);*/
+/*}*/

@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.headBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.logotip{
+    padding: 15px 0 30px 20px;
+}
+.buttonVihod{
+    background: none;
+    border: none;
+    margin: 0 10px 0 25px
+}
+
+.vihodImg{
+    width: 60px;
+    height: 60px;
+}
+
+.div_fon{
+    /*z-index: 0;*/
+    /*!*width: 1558px;*!*/
+    /*height: 302px   ;*/
+    /*background-color: white;*/
+    /*position: fixed;*/
+    /*top:0px ;*/
+    /*left: 0;*/
+    /*right: 0px;*/
+}
+
+.operators{
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    margin-bottom: 50px;
+    margin-left: 50%;
+}
+
+
+.buffer_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buffer_link{
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+
+.buffer_link-title-h1{
+    text-align: center;
+    width: 100% ;
+}
+.buffer_link-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.buff_cell{
+    display: flex;
+    margin: 10px 20px;
+    background:#00e340;
+    min-height: 100px;
+}
+.cell_padding{
+    padding: 10px;
+    border: 1px solid black;
+}
+.buff_cell_id{
+
+}
+.buff_cell-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.buff_cell_children{
+    width: 300px;;
+}
+.buff_cell_children_activ{
+    width: 300px;
+    background:yellow;
+}
+.buffer_info_blok{
+    display: flex;
+
+}
+.average_block{
+    display: flex;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 0 10px;
+    border: 1px solid black;
+
+}
+.averageText{
+    margin-right: 10px;
+    padding: 5px 0;
+}
+.averageValue{
+    padding: 7px 3px 8px 150px;
+    background:#57bb8a;
+}
+
+/*Ссылки для навигации*/
+.nav{
+    /*z-index: 2;*/
+    width: 100%;
+    padding: 10px 5px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    position: -webkit-sticky;
+    background-color: white;
+
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*right: 0;*/
+}
+.nav_link{
+    padding: 20px;
+    font-size: 20px;
+    background:#dce6f1;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    margin: 0 3px;
+}
+.nav_link-active{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background: chartreuse;
+}
+.nav_link:hover {
+    text-decoration: underline;
+}
+/*.nav_link:active {*/
+/*    font-size: 20px;*/
+/*    background-color:chartreuse;*/
+/*}*/
+
+.windows_block {
+
+}
+.fixed_menu{
+/*    background-color: white;*/
+/*z-index: 2;*/
+/*    !*margin-top: 100px;*!*/
+/*    position: sticky;*/
+/*    top: 78px;*/
+    /*left: 0;*/
+}
+.fixed_content{
+
+}
+
+
+
+.block_title{
+    display: flex;
+    justify-content: left;
+}
+.name_operation{
+    text-align: center;
+    margin: 0 0 20px 8%;
+    padding: 0;
+    font-size: 50px;
+    width: 300px;
+
+}
+.znp{
+    width: 500px;
+    padding: 0 0 0 5px;
+}
+
+
+
+.th_def {
+    background: none;
+    border: none;
+}
+.optionDeefault{
+    background: #00e340;
+}
+.znp_data{
+    margin: 0 0 0 5px;
+    width: 250px;
+}
+.poisk{
+    padding: 0 0 20px 10px;
+    display: flex;
+    justify-content:flex-start;
+
+    /*position: sticky;*/
+    /*top: 245px;*/
+    /*background-color: white;*/
+    /*z-index: 2;*/
+}
+.poisk_input{
+    margin-top: 5px;
+    height: 30px;
+    width: 300px;
+}
+
+/*<---------------------Блок с фильтрами выпадающий список---------------------------------------------------->*/
+
+.filter_block{
+    display: flex;
+}
+.fillSelect {
+    margin: 0 10px;
+    border-radius: 5%;
+
+}
+/*<---------------------Станок BST1---------------------------------------------------->*/
+.stanock{
+    width: 100%;
+    padding: 0 30px;
+}
+.stanock_slom{
+    width: 100%;
+    padding: 0 30px;
+    background-color: red;
+}
+.indicators{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 0 0 ;
+}
+.indicators_block{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 10px;
+
+    /*width: 500px;*/
+}
+.indicators_block_item{
+    padding: 20px;
+}
+ /*Кнопки состояния станка*/
+.button_block{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.button_service_worck{
+    min-width: 130px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+
+    /*box-shadow: 0px 0px 8px 10px rgba(38, 255, 0, 0.55);*/
+}
+.button_service_worck:active{
+    background: linear-gradient(#bac6cf, #c5d3de 20%, #71828c);
+    box-shadow: 0 -1px rgba(255,255,255,.4) inset;
+}
+.button_service{
+    min-width: 120px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: firebrick;
+    color: white;
+    font-size: 20px;
+}
+.button_service:active {
+    background: linear-gradient(#bac6cf, #c5d3de 20%, #71828c);
+    box-shadow: 0 -1px rgba(255,255,255,.4) inset;
+}
+
+.servisText{
+    display: none;
+}
+.servisText.activ{
+    margin-top: 10px;
+    /*transform: scale(1);*/
+    display: block;
+}
+
+.statBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.statistick_block{
+    background-color: #dce6f1;
+
+    padding: 10px 0px;
+    display: flex;
+    justify-content: right;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px
+}
+.block_stat_znp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.svetoforStatusTrue{
+    width: 30px;
+
+    margin: 2px 3px 2px 3px;
+
+}
+.svetofor{
+    display: flex;
+}
+
+
+/*Блок ввода текста при поломки*/
+.text_block_service{
+    font-size: 20px;
+}
+
+
+/*Блок с данными на странице станка*/
+.stat_text{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+/*Выбор линий*/
+.select_line_block{
+    margin: 20px 20px 0 0;
+    display: flex;
+    justify-content: right;
+}
+.select_line{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #dce6f1;
+    border-radius: 20px;
+    width: 140px;
+    height: 35px;
+    margin: 0 0 20px 0;
+}
+
+.startSectorsBlock{
+    padding: 10px
+}
+.stanockPage{
+    padding: 10px
+}
+/*=======   Медиа запросы для маленьких экранов    =========================================================================*/
+
+@media (min-width: 800px) and (max-width: 1100px) {
+    *{
+        font-size: 16px;
+
+    }
+    .headBlock{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logotip{
+        padding: 0px 0 40px 0px;
+    }
+    .logotip img{
+        max-width:360px;
+        object-fit: contain;
+    }
+    .nav_link{
+        font-size: 20px;
+    }
+    .indicators{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0 40px 0 ;
+    }
+    .indicators_block{
+        border: 1px solid black;
+        display: flex;
+        border-radius: 10px;
+
+        /*width: 500px;*/
+    }
+    .indicators_block_item{
+        padding: 20px;
+        font-size: 15px;
+    }
+    .indicators_block_item h2{
+
+        font-size: 17px;
+    }
+
+    .button_block{
+        width: 350px;
+
+    }
+
+}

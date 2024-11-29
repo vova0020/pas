@@ -1,0 +1,61 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.modal.activ{
+    transform: scale(1);
+}
+.modal__content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+
+}
+.modal_input{
+
+}
+.buttonOK {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.buttonNO {
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+

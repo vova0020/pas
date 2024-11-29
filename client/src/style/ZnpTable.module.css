@@ -1,0 +1,108 @@
+.table{
+    margin-bottom: 50px;
+    border-collapse:collapse;
+    width: 750px;
+
+}
+.tableYpakStat{
+    margin-bottom: 50px;
+    border-collapse:collapse;
+    width: 80%;
+}
+.thead{
+
+
+}
+.thZnp{
+    padding: 0 90px;
+}
+.thZnpK{
+    padding: 0 40px;
+}
+.tr{
+
+}
+th, td{
+    width: 30px ;
+    border-collapse:collapse;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 10px;
+    /*word-wrap: break-word;*/
+}
+th{
+    background: bisque;
+    font-family:Calibri;
+    font-size: 15px;
+    font-weight: bold;
+}
+td{
+    font-family:Calibri;
+    font-size: 13px;
+}
+.tdBtn{
+    border: none;
+     text-align: left;
+}
+.heading, h1{
+    width: 1000px;
+
+}
+
+.lineYpak{
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+    margin: 1px 0 1px 0;
+}
+
+.lineYpakH3{
+    margin:0 5px 0 0;
+}
+
+.plBlock{
+    display:flex;
+}
+.ekBlock{
+    display:flex;
+}
+.plBlockText{
+    margin-right: 4px;
+}
+.ekBlockText{
+    margin-right: 4px;
+}
+.plBlockNum{
+    border-bottom: 1px black solid;
+}
+.ekBlockNum{
+    border-bottom: 1px black solid;
+}
+
+.divYpakStat{
+    display: flex;
+}
+.lineYpakStat{
+    display: flex;
+    /*justify-content: space-between;*/
+    /*border: 1px solid black;*/
+    margin: 1px 0 1px 0;
+}
+.plBlockStat{
+    display:flex;
+}
+.ekBlockStat{
+    display:flex;
+}
+.plBlockTextStat{
+    margin-right: 10px;
+}
+.ekBlockTextStat{
+    margin-right: 10px;
+}
+.plBlockNumStat{
+    border-bottom: 1px black solid;
+}
+.ekBlockNumStat{
+    border-bottom: 1px black solid;
+}

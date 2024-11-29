@@ -1,0 +1,10 @@
+.StTable{
+width: 100%;
+    border-collapse:collapse;
+    padding: 0 20px;
+    margin-top: 0px;
+    background-color: white;
+}
+.StTableThead{
+
+}
